@@ -83,9 +83,83 @@ button {
 
 /* middle skills */
 
+.mid-skill {
+    text-align: center;
+}
+
+.mid-skill h2 {
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1f2937;
+}
+
+.skill-chart {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    padding-bottom: 30px;
+}
+
+.skill-item {
+
+}
+
+img {
+
+}
+
+.skill-text {
+    font-size: 14px;
+}
+
 /* middle quotes */
 
+.mid-quote {
+    background-color: #e5e7eb;
+    padding: 64px 10%;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote p {
+    margin: 0;
+}
+
+.quote p:first-child {
+    font-size: 32px;
+    color: #1f2937;
+    font-family: cursive;
+    font-weight: 100;
+}
+
+.quote p:last-child {
+    font-size: 20px;
+    font-weight: 900;
+    align-self: flex-end;
+    padding-right: 50px;
+}
 /* middle signs */
+
+.blue-box {
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 64px 10%;
+    padding: 32px 8%;
+    justify-content: space-between;
+}
+
+.blue-box-text h3, .blue-box-text p {
+    margin: 0;
+}
+
+.blue-box button {
+    border: 1px solid white;
+}
 
 /* bottom */
 .bottom {
